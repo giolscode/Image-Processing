@@ -92,7 +92,7 @@ def create_warm_rgb_image(target, surveys):
     plt.figure(figsize=(10, 10))
     plt.imshow(rgb_image, origin='lower')
     plt.axis('off')
-    plt.title(f"{target} - Image RGB avec couleurs chaudes")
+    plt.title(f"{target}")
     plt.show()
 
 if __name__ == "__main__":
